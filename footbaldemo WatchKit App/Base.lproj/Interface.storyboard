@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="7702" systemVersion="14C1514" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3737"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <table alignment="left" id="4Mj-zt-hSd">
+                            <items>
+                                <tableRow id="dcW-dm-Pbm" customClass="LeagueVM">
+                                    <group key="rootItem" width="1" height="37.5" alignment="left" id="vjg-Tj-y5R">
+                                        <items>
+                                            <imageView width="30" height="30" alignment="left" verticalAlignment="center" id="IjU-fJ-IYp" userLabel="leagueimg"/>
+                                            <label alignment="center" verticalAlignment="center" text="Label" id="ZPO-9c-poP" userLabel="leaguelbl"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="leagueimg" destination="IjU-fJ-IYp" id="1ox-kf-SYr"/>
+                                        <outlet property="leaguelbl" destination="ZPO-9c-poP" id="a13-4u-3dE"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="leagueTable" destination="4Mj-zt-hSd" id="H1k-jT-vEW"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="217"/>
+        </scene>
+        <!--sportTeamController-->
+        <scene sceneID="Qd6-Gn-fuR">
+            <objects>
+                <controller identifier="sportTeamController" id="e1k-mc-J82" customClass="SportTeamController">
+                    <items>
+                        <table alignment="left" id="MCP-oD-OQh">
+                            <items>
+                                <tableRow id="xUn-Zb-N1v" customClass="SportTeamVM">
+                                    <group key="rootItem" width="1" alignment="left" id="lu9-Ch-dHu">
+                                        <items>
+                                            <imageView width="30" height="30" alignment="left" verticalAlignment="center" id="b02-1O-t7P" userLabel="hostImg"/>
+                                            <label alignment="center" verticalAlignment="center" text="Label" id="gmF-hn-ndR" userLabel="scoreLbl"/>
+                                            <imageView width="30" height="30" alignment="right" verticalAlignment="center" id="6c5-KS-0Dr" userLabel="gestImg"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="gestImg" destination="6c5-KS-0Dr" id="3Kx-LU-k5K"/>
+                                        <outlet property="hostImg" destination="b02-1O-t7P" id="s48-zR-Ufr"/>
+                                        <outlet property="scoreLbl" destination="gmF-hn-ndR" id="BNM-vX-s8s"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="sportTeamTable" destination="MCP-oD-OQh" id="KOm-O4-nf0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="164" y="475"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="arS-ed-GzK">
+            <objects>
+                <glanceController id="IiB-eH-ZW1" customClass="GlanceController">
+                    <items>
+                        <group alignment="left" id="s5z-dM-lUw">
+                            <items>
+                                <imageView alignment="center" verticalAlignment="center" image="logo" id="9zO-U2-ayg"/>
+                            </items>
+                        </group>
+                        <group alignment="left" id="VwL-ow-y5g">
+                            <items>
+                                <label alignment="center" verticalAlignment="center" text="NBA 骑士大胜公牛晋级东决 张佳玮：找兰多夫玩挡拆" numberOfLines="6" id="iAD-Uq-cme"/>
+                            </items>
+                        </group>
+                    </items>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="164" y="727"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="FkC-Hp-G1n">
+            <objects>
+                <notificationController id="Erg-tC-Ms9">
+                    <items>
+                        <label alignment="left" text="虎扑体育" id="pE9-Pg-dix"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="ehp-Gw-fgb"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="pE9-Pg-dix" id="nFH-XM-40F"/>
+                        <segue destination="4Li-0e-NfW" kind="relationship" relationship="dynamicNotificationInterface" id="NmV-XK-ppP"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="164" y="965"/>
+        </scene>
+        <!--League Notification-->
+        <scene sceneID="brA-v8-Vux">
+            <objects>
+                <controller id="4Li-0e-NfW" customClass="LeagueNotification">
+                    <items>
+                        <label alignment="left" text="Label" id="Kyt-NV-Jhc" userLabel="titlelbl">
+                            <color key="textColor" red="1" green="0.27583273052614221" blue="0.081493672392118244" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleHeadline"/>
+                        </label>
+                        <label alignment="center" verticalAlignment="center" text="detailMsg" numberOfLines="5" id="8zg-xL-vfM"/>
+                    </items>
+                    <connections>
+                        <outlet property="detailMsg" destination="8zg-xL-vfM" id="v2Y-cA-sSi"/>
+                        <outlet property="titlelbl" destination="Kyt-NV-Jhc" id="3Ix-cl-np4"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="387" y="965"/>
+        </scene>
+    </scenes>
+</document>
