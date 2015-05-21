@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9BDF2DD1B04F7870022E0C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF2DC1B04F7870022E0C5 /* main.m */; };
+		A9BDF2E01B04F7870022E0C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF2DF1B04F7870022E0C5 /* AppDelegate.m */; };
+		A9BDF2E31B04F7870022E0C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF2E21B04F7870022E0C5 /* ViewController.m */; };
+		A9BDF2E61B04F7870022E0C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BDF2E41B04F7870022E0C5 /* Main.storyboard */; };
+		A9BDF2E81B04F7870022E0C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BDF2E71B04F7870022E0C5 /* Images.xcassets */; };
+		A9BDF2EB1B04F7870022E0C5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A9BDF2E91B04F7870022E0C5 /* LaunchScreen.xib */; };
+		A9BDF2F71B04F7870022E0C5 /* footbaldemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF2F61B04F7870022E0C5 /* footbaldemoTests.m */; };
+		A9BDF30A1B04F7A50022E0C5 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF3091B04F7A50022E0C5 /* InterfaceController.m */; };
+		A9BDF30D1B04F7A50022E0C5 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF30C1B04F7A50022E0C5 /* GlanceController.m */; };
+		A9BDF30F1B04F7A50022E0C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BDF30E1B04F7A50022E0C5 /* Images.xcassets */; };
+		A9BDF3131B04F7A60022E0C5 /* footbaldemo WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A9BDF3121B04F7A60022E0C5 /* footbaldemo WatchKit App.app */; };
+		A9BDF31B1B04F7A60022E0C5 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9BDF3191B04F7A60022E0C5 /* Interface.storyboard */; };
+		A9BDF31D1B04F7A60022E0C5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9BDF31C1B04F7A60022E0C5 /* Images.xcassets */; };
+		A9BDF3201B04F7A60022E0C5 /* footbaldemo WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A9BDF3041B04F7A50022E0C5 /* footbaldemo WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A9BDF32B1B04FA2D0022E0C5 /* LeagueVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF32A1B04FA2D0022E0C5 /* LeagueVM.m */; };
+		A9BDF3311B04FDE90022E0C5 /* LeagueModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF3301B04FDE90022E0C5 /* LeagueModel.m */; };
+		A9BDF3341B0505260022E0C5 /* SportTeam.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF3331B0505260022E0C5 /* SportTeam.m */; };
+		A9BDF3371B0505AB0022E0C5 /* SportTeamVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF3361B0505AB0022E0C5 /* SportTeamVM.m */; };
+		A9BDF33A1B0506410022E0C5 /* SportTeamController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BDF3391B0506410022E0C5 /* SportTeamController.m */; };
+		D54098A91B05C380007057CA /* NotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = D54098A81B05C380007057CA /* NotificationPayload.apns */; };
+		D54098AC1B05C3DE007057CA /* LeagueNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = D54098AB1B05C3DE007057CA /* LeagueNotification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9BDF2F11B04F7870022E0C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BDF2CF1B04F7870022E0C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BDF2D61B04F7870022E0C5;
+			remoteInfo = footbaldemo;
+		};
+		A9BDF3141B04F7A60022E0C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BDF2CF1B04F7870022E0C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BDF3111B04F7A60022E0C5;
+			remoteInfo = "footbaldemo WatchKit App";
+		};
+		A9BDF31E1B04F7A60022E0C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9BDF2CF1B04F7870022E0C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9BDF3031B04F7A50022E0C5;
+			remoteInfo = "footbaldemo WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9BDF3271B04F7A60022E0C5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A9BDF3201B04F7A60022E0C5 /* footbaldemo WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A9BDF2D71B04F7870022E0C5 /* footbaldemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = footbaldemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BDF2DB1B04F7870022E0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BDF2DC1B04F7870022E0C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9BDF2DE1B04F7870022E0C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9BDF2DF1B04F7870022E0C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9BDF2E11B04F7870022E0C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9BDF2E21B04F7870022E0C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9BDF2E51B04F7870022E0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9BDF2E71B04F7870022E0C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9BDF2EA1B04F7870022E0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A9BDF2F01B04F7870022E0C5 /* footbaldemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = footbaldemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BDF2F51B04F7870022E0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BDF2F61B04F7870022E0C5 /* footbaldemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = footbaldemoTests.m; sourceTree = "<group>"; };
+		A9BDF3041B04F7A50022E0C5 /* footbaldemo WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "footbaldemo WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BDF3071B04F7A50022E0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BDF3081B04F7A50022E0C5 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A9BDF3091B04F7A50022E0C5 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A9BDF30B1B04F7A50022E0C5 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		A9BDF30C1B04F7A50022E0C5 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		A9BDF30E1B04F7A50022E0C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9BDF3121B04F7A60022E0C5 /* footbaldemo WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "footbaldemo WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9BDF3181B04F7A60022E0C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9BDF31A1B04F7A60022E0C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A9BDF31C1B04F7A60022E0C5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9BDF3291B04FA2D0022E0C5 /* LeagueVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueVM.h; sourceTree = "<group>"; };
+		A9BDF32A1B04FA2D0022E0C5 /* LeagueVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueVM.m; sourceTree = "<group>"; };
+		A9BDF32F1B04FDE90022E0C5 /* LeagueModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueModel.h; sourceTree = "<group>"; };
+		A9BDF3301B04FDE90022E0C5 /* LeagueModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueModel.m; sourceTree = "<group>"; };
+		A9BDF3321B0505260022E0C5 /* SportTeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportTeam.h; sourceTree = "<group>"; };
+		A9BDF3331B0505260022E0C5 /* SportTeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportTeam.m; sourceTree = "<group>"; };
+		A9BDF3351B0505AB0022E0C5 /* SportTeamVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportTeamVM.h; sourceTree = "<group>"; };
+		A9BDF3361B0505AB0022E0C5 /* SportTeamVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportTeamVM.m; sourceTree = "<group>"; };
+		A9BDF3381B0506410022E0C5 /* SportTeamController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportTeamController.h; sourceTree = "<group>"; };
+		A9BDF3391B0506410022E0C5 /* SportTeamController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SportTeamController.m; sourceTree = "<group>"; };
+		D54098A81B05C380007057CA /* NotificationPayload.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NotificationPayload.apns; sourceTree = "<group>"; };
+		D54098AA1B05C3DE007057CA /* LeagueNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeagueNotification.h; sourceTree = "<group>"; };
+		D54098AB1B05C3DE007057CA /* LeagueNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeagueNotification.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9BDF2D41B04F7870022E0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BDF2ED1B04F7870022E0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BDF3011B04F7A50022E0C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9BDF2CE1B04F7860022E0C5 = {
+			isa = PBXGroup;
+			children = (
+				A9BDF2D91B04F7870022E0C5 /* footbaldemo */,
+				A9BDF2F31B04F7870022E0C5 /* footbaldemoTests */,
+				A9BDF3051B04F7A50022E0C5 /* footbaldemo WatchKit Extension */,
+				A9BDF3161B04F7A60022E0C5 /* footbaldemo WatchKit App */,
+				A9BDF2D81B04F7870022E0C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9BDF2D81B04F7870022E0C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF2D71B04F7870022E0C5 /* footbaldemo.app */,
+				A9BDF2F01B04F7870022E0C5 /* footbaldemoTests.xctest */,
+				A9BDF3041B04F7A50022E0C5 /* footbaldemo WatchKit Extension.appex */,
+				A9BDF3121B04F7A60022E0C5 /* footbaldemo WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9BDF2D91B04F7870022E0C5 /* footbaldemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF2DE1B04F7870022E0C5 /* AppDelegate.h */,
+				A9BDF2DF1B04F7870022E0C5 /* AppDelegate.m */,
+				A9BDF2E11B04F7870022E0C5 /* ViewController.h */,
+				A9BDF2E21B04F7870022E0C5 /* ViewController.m */,
+				A9BDF2E41B04F7870022E0C5 /* Main.storyboard */,
+				A9BDF2E71B04F7870022E0C5 /* Images.xcassets */,
+				A9BDF2E91B04F7870022E0C5 /* LaunchScreen.xib */,
+				A9BDF2DA1B04F7870022E0C5 /* Supporting Files */,
+			);
+			path = footbaldemo;
+			sourceTree = "<group>";
+		};
+		A9BDF2DA1B04F7870022E0C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF2DB1B04F7870022E0C5 /* Info.plist */,
+				A9BDF2DC1B04F7870022E0C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BDF2F31B04F7870022E0C5 /* footbaldemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF2F61B04F7870022E0C5 /* footbaldemoTests.m */,
+				A9BDF2F41B04F7870022E0C5 /* Supporting Files */,
+			);
+			path = footbaldemoTests;
+			sourceTree = "<group>";
+		};
+		A9BDF2F41B04F7870022E0C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF2F51B04F7870022E0C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BDF3051B04F7A50022E0C5 /* footbaldemo WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF32E1B04FD880022E0C5 /* Model */,
+				A9BDF3281B04F9F90022E0C5 /* ViewModel */,
+				A9BDF3081B04F7A50022E0C5 /* InterfaceController.h */,
+				A9BDF3091B04F7A50022E0C5 /* InterfaceController.m */,
+				A9BDF3381B0506410022E0C5 /* SportTeamController.h */,
+				A9BDF3391B0506410022E0C5 /* SportTeamController.m */,
+				D54098AA1B05C3DE007057CA /* LeagueNotification.h */,
+				D54098AB1B05C3DE007057CA /* LeagueNotification.m */,
+				A9BDF30B1B04F7A50022E0C5 /* GlanceController.h */,
+				A9BDF30C1B04F7A50022E0C5 /* GlanceController.m */,
+				A9BDF30E1B04F7A50022E0C5 /* Images.xcassets */,
+				A9BDF3061B04F7A50022E0C5 /* Supporting Files */,
+			);
+			path = "footbaldemo WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A9BDF3061B04F7A50022E0C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D54098A81B05C380007057CA /* NotificationPayload.apns */,
+				A9BDF3071B04F7A50022E0C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BDF3161B04F7A60022E0C5 /* footbaldemo WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF3191B04F7A60022E0C5 /* Interface.storyboard */,
+				A9BDF31C1B04F7A60022E0C5 /* Images.xcassets */,
+				A9BDF3171B04F7A60022E0C5 /* Supporting Files */,
+			);
+			path = "footbaldemo WatchKit App";
+			sourceTree = "<group>";
+		};
+		A9BDF3171B04F7A60022E0C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF3181B04F7A60022E0C5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BDF3281B04F9F90022E0C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF3291B04FA2D0022E0C5 /* LeagueVM.h */,
+				A9BDF32A1B04FA2D0022E0C5 /* LeagueVM.m */,
+				A9BDF3351B0505AB0022E0C5 /* SportTeamVM.h */,
+				A9BDF3361B0505AB0022E0C5 /* SportTeamVM.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		A9BDF32E1B04FD880022E0C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9BDF32F1B04FDE90022E0C5 /* LeagueModel.h */,
+				A9BDF3301B04FDE90022E0C5 /* LeagueModel.m */,
+				A9BDF3321B0505260022E0C5 /* SportTeam.h */,
+				A9BDF3331B0505260022E0C5 /* SportTeam.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9BDF2D61B04F7870022E0C5 /* footbaldemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BDF2FA1B04F7870022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemo" */;
+			buildPhases = (
+				A9BDF2D31B04F7870022E0C5 /* Sources */,
+				A9BDF2D41B04F7870022E0C5 /* Frameworks */,
+				A9BDF2D51B04F7870022E0C5 /* Resources */,
+				A9BDF3271B04F7A60022E0C5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BDF31F1B04F7A60022E0C5 /* PBXTargetDependency */,
+			);
+			name = footbaldemo;
+			productName = footbaldemo;
+			productReference = A9BDF2D71B04F7870022E0C5 /* footbaldemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9BDF2EF1B04F7870022E0C5 /* footbaldemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BDF2FD1B04F7870022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemoTests" */;
+			buildPhases = (
+				A9BDF2EC1B04F7870022E0C5 /* Sources */,
+				A9BDF2ED1B04F7870022E0C5 /* Frameworks */,
+				A9BDF2EE1B04F7870022E0C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BDF2F21B04F7870022E0C5 /* PBXTargetDependency */,
+			);
+			name = footbaldemoTests;
+			productName = footbaldemoTests;
+			productReference = A9BDF2F01B04F7870022E0C5 /* footbaldemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9BDF3031B04F7A50022E0C5 /* footbaldemo WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BDF3241B04F7A60022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemo WatchKit Extension" */;
+			buildPhases = (
+				A9BDF3001B04F7A50022E0C5 /* Sources */,
+				A9BDF3011B04F7A50022E0C5 /* Frameworks */,
+				A9BDF3021B04F7A50022E0C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9BDF3151B04F7A60022E0C5 /* PBXTargetDependency */,
+			);
+			name = "footbaldemo WatchKit Extension";
+			productName = "footbaldemo WatchKit Extension";
+			productReference = A9BDF3041B04F7A50022E0C5 /* footbaldemo WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A9BDF3111B04F7A60022E0C5 /* footbaldemo WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9BDF3211B04F7A60022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemo WatchKit App" */;
+			buildPhases = (
+				A9BDF3101B04F7A60022E0C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "footbaldemo WatchKit App";
+			productName = "footbaldemo WatchKit App";
+			productReference = A9BDF3121B04F7A60022E0C5 /* footbaldemo WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9BDF2CF1B04F7870022E0C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yang David";
+				TargetAttributes = {
+					A9BDF2D61B04F7870022E0C5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A9BDF2EF1B04F7870022E0C5 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = A9BDF2D61B04F7870022E0C5;
+					};
+					A9BDF3031B04F7A50022E0C5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					A9BDF3111B04F7A60022E0C5 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = A9BDF2D21B04F7870022E0C5 /* Build configuration list for PBXProject "footbaldemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9BDF2CE1B04F7860022E0C5;
+			productRefGroup = A9BDF2D81B04F7870022E0C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9BDF2D61B04F7870022E0C5 /* footbaldemo */,
+				A9BDF2EF1B04F7870022E0C5 /* footbaldemoTests */,
+				A9BDF3031B04F7A50022E0C5 /* footbaldemo WatchKit Extension */,
+				A9BDF3111B04F7A60022E0C5 /* footbaldemo WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9BDF2D51B04F7870022E0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BDF2E61B04F7870022E0C5 /* Main.storyboard in Resources */,
+				A9BDF2EB1B04F7870022E0C5 /* LaunchScreen.xib in Resources */,
+				A9BDF2E81B04F7870022E0C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BDF2EE1B04F7870022E0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BDF3021B04F7A50022E0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BDF30F1B04F7A50022E0C5 /* Images.xcassets in Resources */,
+				D54098A91B05C380007057CA /* NotificationPayload.apns in Resources */,
+				A9BDF3131B04F7A60022E0C5 /* footbaldemo WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BDF3101B04F7A60022E0C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BDF31B1B04F7A60022E0C5 /* Interface.storyboard in Resources */,
+				A9BDF31D1B04F7A60022E0C5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9BDF2D31B04F7870022E0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BDF2E31B04F7870022E0C5 /* ViewController.m in Sources */,
+				A9BDF2E01B04F7870022E0C5 /* AppDelegate.m in Sources */,
+				A9BDF2DD1B04F7870022E0C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BDF2EC1B04F7870022E0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BDF2F71B04F7870022E0C5 /* footbaldemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9BDF3001B04F7A50022E0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9BDF3311B04FDE90022E0C5 /* LeagueModel.m in Sources */,
+				D54098AC1B05C3DE007057CA /* LeagueNotification.m in Sources */,
+				A9BDF32B1B04FA2D0022E0C5 /* LeagueVM.m in Sources */,
+				A9BDF3341B0505260022E0C5 /* SportTeam.m in Sources */,
+				A9BDF30A1B04F7A50022E0C5 /* InterfaceController.m in Sources */,
+				A9BDF3371B0505AB0022E0C5 /* SportTeamVM.m in Sources */,
+				A9BDF30D1B04F7A50022E0C5 /* GlanceController.m in Sources */,
+				A9BDF33A1B0506410022E0C5 /* SportTeamController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9BDF2F21B04F7870022E0C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BDF2D61B04F7870022E0C5 /* footbaldemo */;
+			targetProxy = A9BDF2F11B04F7870022E0C5 /* PBXContainerItemProxy */;
+		};
+		A9BDF3151B04F7A60022E0C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BDF3111B04F7A60022E0C5 /* footbaldemo WatchKit App */;
+			targetProxy = A9BDF3141B04F7A60022E0C5 /* PBXContainerItemProxy */;
+		};
+		A9BDF31F1B04F7A60022E0C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9BDF3031B04F7A50022E0C5 /* footbaldemo WatchKit Extension */;
+			targetProxy = A9BDF31E1B04F7A60022E0C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9BDF2E41B04F7870022E0C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BDF2E51B04F7870022E0C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9BDF2E91B04F7870022E0C5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BDF2EA1B04F7870022E0C5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		A9BDF3191B04F7A60022E0C5 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9BDF31A1B04F7A60022E0C5 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9BDF2F81B04F7870022E0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9BDF2F91B04F7870022E0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9BDF2FB1B04F7870022E0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = footbaldemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9BDF2FC1B04F7870022E0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = footbaldemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9BDF2FE1B04F7870022E0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = footbaldemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footbaldemo.app/footbaldemo";
+			};
+			name = Debug;
+		};
+		A9BDF2FF1B04F7870022E0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = footbaldemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/footbaldemo.app/footbaldemo";
+			};
+			name = Release;
+		};
+		A9BDF3221B04F7A60022E0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = footbaldemo_WatchKit_Extension;
+				INFOPLIST_FILE = "footbaldemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A9BDF3231B04F7A60022E0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = footbaldemo_WatchKit_Extension;
+				INFOPLIST_FILE = "footbaldemo WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A9BDF3251B04F7A60022E0C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "footbaldemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A9BDF3261B04F7A60022E0C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "footbaldemo WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9BDF2D21B04F7870022E0C5 /* Build configuration list for PBXProject "footbaldemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BDF2F81B04F7870022E0C5 /* Debug */,
+				A9BDF2F91B04F7870022E0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BDF2FA1B04F7870022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BDF2FB1B04F7870022E0C5 /* Debug */,
+				A9BDF2FC1B04F7870022E0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BDF2FD1B04F7870022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BDF2FE1B04F7870022E0C5 /* Debug */,
+				A9BDF2FF1B04F7870022E0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BDF3211B04F7A60022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemo WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BDF3221B04F7A60022E0C5 /* Debug */,
+				A9BDF3231B04F7A60022E0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9BDF3241B04F7A60022E0C5 /* Build configuration list for PBXNativeTarget "footbaldemo WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9BDF3251B04F7A60022E0C5 /* Debug */,
+				A9BDF3261B04F7A60022E0C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9BDF2CF1B04F7870022E0C5 /* Project object */;
+}

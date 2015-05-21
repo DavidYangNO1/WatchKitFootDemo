@@ -1,0 +1,16 @@
+{
+    "aps": {
+        "alert": {
+            "body": "火箭快船第7场见",
+            "title": "Optional title"
+        },
+        "category": "myCategory"
+    },
+    "WatchKit Simulator Actions": [
+       {
+       "title": "首页",
+       "identifier": "firstButtonAction"
+       }
+    ],
+    "detailKey": "跪着看！火箭末节24-2逆转，火箭绝地反击，无哈登24-2惊天大逆转,打疯了！约什后撤步致命3分！|美国球迷惊呼为约什立雕像"
+}
